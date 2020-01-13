@@ -1,7 +1,7 @@
 # fuse74-s2i-deployment
 
 ```
-$ oc new-app fuse7-java-openshift:1.4~https://github.com/abouchama/fuse-s2i.git --name=custom-fuse-74-s2i-openshift
+$ oc new-app fuse7-java-openshift:1.4~https://github.com/abouchama/fuse74-s2i-deployment.git --name=custom-fuse74-s2i-openshift
 --> Found image ad4d6e5 (4 months old) in image stream "fuse74/fuse7-java-openshift" under tag "1.4" for "fuse7-java-openshift:1.4"
 
     Fuse for OpenShift
