@@ -30,7 +30,7 @@ $ oc new-app fuse7-java-openshift:1.4~https://github.com/abouchama/fuse74-s2i-de
 ```
   
 ```
-$ stern fuse74-s2i-2                                           INT ✘  5m 37s  fuse74/openshift-abouchama-lab-pnq2-cee-redhat-com:443/quicklab/fuse74 ⎈  15:48:17
+$ stern fuse74-s2i-2                                          
 + fuse74-s2i-2-openshift-1-build › git-clone
 fuse74-s2i-2-openshift-1-build git-clone Cloning "https://github.com/abouchama/fuse74-s2i-deployment.git" ...
 fuse74-s2i-2-openshift-1-build git-clone 	Commit:	3c5612f17a231f4c3f68020fea532907d5a577cf (Merge branch 'master' of https://github.com/abouchama/fuse74-s2i-deployment)
